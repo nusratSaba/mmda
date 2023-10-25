@@ -1,0 +1,13 @@
+prefix=E:/PersonalProjects/mmda/condaEnv/mmda/Library
+exec_prefix=E:/PersonalProjects/mmda/condaEnv/mmda/Library
+libdir=E:/PersonalProjects/mmda/condaEnv/mmda/Library/lib
+sharedlibdir=E:/PersonalProjects/mmda/condaEnv/mmda/Library/lib
+includedir=E:/PersonalProjects/mmda/condaEnv/mmda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
